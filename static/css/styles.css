@@ -1,0 +1,161 @@
+.container-bg-image {
+  background-image: url('/static/img/image1.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  background-color: #d8c0c0;
+}
+
+.display-1 {
+  color: #54381c;
+  font-family: 'Cookie', cursive;
+  font-size: 8rem !important;
+}
+
+.lead {
+  color: #54381c;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.form-label {
+    margin-top: 10px;
+    color: #54381c;
+    font-family: 'Cookie', cursive;
+    font-size: 2rem;
+}
+.form-control {
+    border: 1px solid #54381c; /* Changed border color */
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    color: #54381c; /* For the "No file chosen" text */
+}
+
+.form-control::-webkit-file-upload-button {
+    color: #54381c;
+    background-color: #f0f0f0;
+    border: 1px solid #54381c; /* Changed border color for the button */
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.form-control::file-selector-button {
+    color: #54381c;
+    background-color: #f0f0f0;
+    border: 1px solid #54381c; /* Changed border color for the button */
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.b-example-divider {
+  height: 3rem;
+  background-color: white;
+  width: 100%;
+  margin: 1rem 0;
+  border: 0;
+}
+footer{
+  background-color: #d8c0c0;
+}
+
+
+.btn-primary {
+    background-color: #d8c0c0 !important;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    border-color:#d8c0c0 !important;
+}
+
+.btn-primary:hover {
+    background-color: #e0b8b8 !important;
+}
+
+.img-thumbnail {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+.mt-4 {
+  margin-top: 20px;
+}
+
+.color-box {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ccc;
+  margin: 5px;
+  display: inline-block;
+}
+
+.color-box span {
+  margin-left: 10px;
+  font-size: 0.9rem;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .display-1 {
+    font-size: 6rem !important;
+  }
+
+  .lead {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .display-1 {
+    font-size: 4rem !important;
+  }
+
+  .lead {
+    font-size: 0.9rem;
+  }
+
+  .color-box {
+    width: 40px;
+    height: 40px;
+  }
+
+  .color-box span {
+    font-size: 0.8rem;
+  }
+}
+
+.extracted-colors-container {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.color-palette {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 15px;
+}

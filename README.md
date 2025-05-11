@@ -27,9 +27,6 @@ This web application allows you to easily upload an image and instantly see a co
     *(Make sure your `requirements.txt` file includes: `Pillow`, `numpy`, `matplotlib`, `scikit-learn`, and `Flask`)*
 
 3.  **Run the web application:**
-    ```bash
-    python your_app.py  # Replace with the name of your main Flask application file (e.g., app.py)
-    ```
     Open your web browser and navigate to the address provided in your terminal (usually `http://127.0.0.1:5000`).
 
 4.  **Upload an Image:** On the website, use the "Choose file" button to select an image from your computer and click "Extract Colors".
